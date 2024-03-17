@@ -1,0 +1,19 @@
+@import "reset";
+
+html, body {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  height: 100%;
+}
+
+body {
+  background-color: #001427;
+  color: #ffffff;
+}
+
+body, #app {
+  display: flex;
+  flex: 1;
+}
